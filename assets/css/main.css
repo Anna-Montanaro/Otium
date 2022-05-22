@@ -190,10 +190,6 @@ input, select, textarea {
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
@@ -1636,14 +1632,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#footer .copyright {
-			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
-			margin-bottom: 0;
-			text-transform: uppercase;
-		}
-
+		#footer .copyright,
 		#footer .documentazione {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
